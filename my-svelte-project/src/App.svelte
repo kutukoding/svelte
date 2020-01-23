@@ -1,11 +1,17 @@
 <script>
 	// ambil name dari main.js
 	export let name
+	
+	import Training2 from './2_img.svelte'
 </script>
 
 <main>
 	<h1><span class="blue"></span>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	
+	<!-- image & shorthand buat attribute (jika nama variable sama) -->
+	<hr/>
+	<Training2/>
 </main>
 
 <style>
