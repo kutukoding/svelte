@@ -2,6 +2,7 @@
 	// ambil name dari main.js
 	export let name
 	import Training3 from './3_event.svelte'
+	import Training32 from './3_event_advance.svelte'
 </script>
 
 <main>
@@ -11,6 +12,7 @@
 	<!-- event (click) -->
 	<hr/>
 	<Training3/>
+	<Training32/>
 </main>
 
 <style>
