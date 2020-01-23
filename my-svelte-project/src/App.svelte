@@ -1,11 +1,17 @@
 <script>
 	// ambil name dari main.js
 	export let name
+
+	import Training1 from './1_nested.svelte'
 </script>
 
 <main>
 	<h1><span class="blue"></span>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	
+	<!-- nested components (termasuk @html komponen) -->
+	<hr/>
+	<Training1/>
 </main>
 
 <style>
