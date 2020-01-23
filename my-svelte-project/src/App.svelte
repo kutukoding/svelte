@@ -1,7 +1,8 @@
 <script>
 	// ambil name dari main.js
 	export let name
-	
+  
+	import Training1 from './1_nested.svelte'
 	import Training2 from './2_img.svelte'
 </script>
 
@@ -9,7 +10,11 @@
 	<h1><span class="blue"></span>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 	
-	<!-- image & shorthand buat attribute (jika nama variable sama) -->
+	<!-- nested components (termasuk @html komponen) -->
+	<hr/>
+	<Training1/>
+  
+  <!-- image & shorthand buat attribute (jika nama variable sama) -->
 	<hr/>
 	<Training2/>
 </main>
