@@ -1,11 +1,16 @@
 <script>
 	// ambil name dari main.js
 	export let name
+	import Training3 from './3_event.svelte'
 </script>
 
 <main>
 	<h1><span class="blue"></span>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+
+	<!-- event (click) -->
+	<hr/>
+	<Training3/>
 </main>
 
 <style>
